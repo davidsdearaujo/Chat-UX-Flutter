@@ -116,9 +116,10 @@ class _LoginScreenState extends State<LoginScreen> {
               text: TextSpan(
                 text: "Loging in accepting the ",
                 style: TextStyle(
-                    fontSize: 10.5,
-                    fontWeight: FontWeight.w300,
-                    letterSpacing: 1),
+                  fontSize: 10.5,
+                  fontWeight: FontWeight.w300,
+                  letterSpacing: 1,
+                ),
                 children: [
                   TextSpan(
                     text: "Terms and Conditions",

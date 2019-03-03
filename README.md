@@ -1,6 +1,12 @@
 # chat_layout
 
-A new Flutter project.
+Flutter Chat Layout
+
+![](screenshots/login.png)
+
+![](screenshots/messages.png)
+
+![](screenshots/chat.png)
 
 ## Getting Started
 

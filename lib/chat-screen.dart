@@ -27,6 +27,7 @@ class _ChatScreenState extends State<ChatScreen> {
           Padding(
             padding: EdgeInsets.only(bottom: 69),
             child: ListView(
+              physics: BouncingScrollPhysics(),
               padding: EdgeInsets.symmetric(horizontal: 25),
               children: <Widget>[
                 _buildNotification(

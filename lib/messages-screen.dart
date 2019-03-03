@@ -22,39 +22,48 @@ class MessagesScreenState extends State<MessagesScreen> {
         centerTitle: true,
       ),
       body: ListView(
+        physics: BouncingScrollPhysics(),
         children: <Widget>[
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
           _buildTile(
-              title: "Anna Marchelonda",
-              subtitle: "Last message show",
-              time: "10:55"),
+            title: "Anna Marchelonda",
+            subtitle: "Last message show",
+            time: "10:55",
+          ),
         ],
       ),
     );
@@ -89,11 +98,11 @@ class MessagesScreenState extends State<MessagesScreen> {
           time,
           style: TextStyle(color: Colors.grey, fontSize: 13),
         ),
-      onTap: () {
-        Navigator.of(context).push(
-          MaterialPageRoute(builder: (context) => ChatScreen(title: title)),
-        );
-      },
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (context) => ChatScreen(title: title)),
+          );
+        },
       ),
     );
   }
