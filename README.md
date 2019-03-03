@@ -1,4 +1,5 @@
-# chat_layout
+# Chat UX Flutter
+Desafio proposto pela equipe do canal https://web.telegram.org/#/im?p=@flutterando_desafios
 
 Flutter Chat Layout
 
